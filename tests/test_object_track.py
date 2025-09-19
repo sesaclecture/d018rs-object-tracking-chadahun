@@ -53,6 +53,7 @@ def test_draw_boundingbox():
 
 def test_save_and_load_config(tmp_path):
     # Set globals
+    global l_min, l_max, a_min, a_max, b_min, b_maxe
     object_track.l_min = 10
     object_track.l_max = 20
     object_track.a_min = 30
